@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+
+require('../lib/spotify-to-mp3.js').convert();
