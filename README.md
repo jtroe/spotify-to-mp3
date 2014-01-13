@@ -52,6 +52,17 @@ Get the current version.
 `-h, --help` 
 Display Help.
 
+## Default settings
+
+You can set some default settings. Create a `.spotify-to-mp3.json` file in the working directory or somewhere in the parent directories. 
+The user's home directory is a good place.
+
+    {   "username":     "",
+        "password":     "",
+        "destination":  "",
+        "format":       ""
+    }
+
 ## Credits
 
 Thanks to the guys at [node-spotify-web](https://github.com/TooTallNate/node-spotify-web)
