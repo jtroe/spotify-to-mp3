@@ -1,6 +1,6 @@
 {
     "name": "spotify-to-mp3",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Export your Spotify tracks, albums and playlists to MP3 with a simple command-line interface.",
     "author": "Jay Salvat",
     "license": "MIT",
