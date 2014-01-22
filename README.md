@@ -1,15 +1,17 @@
-# Spotify-to-MP3 [![NPM version](https://badge.fury.io/js/spotify-to-mp3.png)](http://badge.fury.io/js/spotify-to-mp3)
+# Spotify-to-MP3
 
 [![NPM version](https://nodei.co/npm/spotify-to-mp3.png)](https://nodei.co/npm/spotify-to-mp3)
 
-Convert your Spotify tracks, albums and playlists to MP3 with a simple command-line interface.
+[![NPM version](https://badge.fury.io/js/spotify-to-mp3.png)](http://badge.fury.io/js/spotify-to-mp3)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
-Spotify Premium account required. MP3 will be in 160kbps. Tested on **Mac OSX only**. 
+Export your Spotify tracks, albums and playlists to MP3 with a simple command-line interface.
+
+A **Spotify Premium account is required**. MP3 will be exported in 160kbps. Tested on **Mac OSX only**. 
 
 ### Important
 
-I coded this script for fun and experimental purpose with [NodeJs](http://nodejs.org). Please note Spotify prohibits downloading music from their platform.
-Use it wisely and at your own risk.
+I coded this script for fun and experimental purpose with [NodeJs](http://nodejs.org). Please use it wisely.
 
 ## Installation
 
@@ -57,10 +59,10 @@ Display Help.
 You can set some default settings. Create a `.spotify-to-mp3.json` file in the working directory or somewhere in the parent directories. 
 The user's home directory is a good place.
 
-    {   "username":     "",
-        "password":     "",
-        "destination":  "",
-        "format":       ""
+    {   "username":    "",
+        "password":    "",
+        "destination": "",
+        "format":      ""
     }
 
 ## Credits
