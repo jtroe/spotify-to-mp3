@@ -2,7 +2,6 @@
     "name": "spotify-to-mp3",
     "version": "0.1.2",
     "description": "Export your Spotify tracks, albums and playlists to MP3 with a simple command-line interface.",
-    "author": "Jay Salvat",
     "license": "MIT",
     "keywords": [
         "spotify",
@@ -16,12 +15,12 @@
     "dependencies": {
         "q": "~1.0.0",
         "commander": "~2.1.0",
-        "spotify-web": "~1.0.0"
+        "spotify-web": "~1.0.*"
     },
-    "bin": "./bin/spotify-to-mp3",
     "devDependencies": {
         "grunt": "~0.4.2",
         "grunt-exec": "~0.4.3",
         "semver": "~2.2.1"
-    }
+    },
+    "bin": "./bin/spotify-to-mp3"
 }
