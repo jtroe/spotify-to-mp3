@@ -6,12 +6,12 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Export your Spotify tracks, albums and playlists to MP3 with a simple command-line interface.
-
 A **Spotify Premium account is required**. MP3 will be exported in 160kbps. Tested on **Mac OSX only**. 
 
 ### Important
 
-I coded this script for fun and experimental purpose with [NodeJs](http://nodejs.org). Please use it wisely.
+I coded this script for fun and experimental purpose with [NodeJs](http://nodejs.org). 
+Please use it wisely **for non-spotify compatible devices only.**
 
 ## Installation
 
@@ -30,29 +30,14 @@ if you want your MP3 to be properly ID3TAG'ed.
 
 You can add one or more track/album/playlist Spotify URIs or HTTP Link.
 
-* **Spotify Username**
-`-u, --username <username>`
-Spotify premium account username. You can also set the username globaly with `export SPOTIFY_USERNAME="{username}"`.
-
-* **Spotify password**
-`-p, --password <password>`
-Spotify premium account password. You can also set the password globaly with `export SPOTIFY_PASSWORD="{password}"`.
-
-* **Destination path**
-`-d, --destination <path>` 
-Destination path. Default path is `./`.
-
-* **Destination format**
-`-f, --format <filename>` 
-Format the destination path and filename. Allowed tags are `%artist%`, `%album%`, `%song%`, `%year%`, `%number%` and `%disc%`. Default filename format is `mp3/%artist%/%album% [%year%]/%number% - %song%`.
-
-* **Version**
-`-V, --version` 
-Get the current version.
-
-* **Help**
-`-h, --help` 
-Display Help.
+| Options | Description |
+| ------- | ----------- |
+| `-u, --username <username>` | Spotify premium account username. You can also set the username globaly with `export SPOTIFY_USERNAME="{username}"`.
+| `-p, --password <password>` | Spotify premium account password. You can also set the password globaly with `export SPOTIFY_PASSWORD="{password}"`.
+| `-d, --destination <path>`  | Destination path. Default path is `./`.
+| `-f, --format <filename>`   | Format the destination path and filename. Allowed tags are `%artist%`, `%album%`, `%song%`, `%year%`, `%number%` and `%disc%`. Default filename format is `mp3/%artist%/%album% [%year%]/%number% - %song%`.
+| `-V, --version`             | Get the current version.
+| `-h, --help`                | Display Help.
 
 ## Default settings
 
